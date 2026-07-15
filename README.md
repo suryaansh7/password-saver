@@ -37,16 +37,27 @@ In your code, clicking Cancel after entering the details causes the website and 
 In my code, clicking Cancel does not delete the entered information.
 
 **Points to Improve in the Code:**
+
 ~Clear the password field before generating a new password to prevent old and new passwords from being combined.
+
 ~Do not delete user data when Cancel is clicked, as this can cause accidental loss of information.
+
 ~Use meaningful function and variable names such as generate_password(), website, email and password.
+
 ~Use return to reduce unnecessary nesting and make the code structure cleaner.
+
 ~Use strings instead of manually created lists for letters, numbers and symbols to make the code shorter and easier to modify.
+
 ~Use .strip() for better validation so that entries containing only spaces are not treated as valid.
+
 ~Use descriptive error messages to clearly inform the user about the problem.
+
 ~Use unique variable names for GUI elements instead of repeatedly using label.
+
 ~Retain the Canvas and logo design, as they improve the visual presentation of the application.
+
 ~Avoid hardcoding personal information such as email addresses, especially when sharing the code publicly or including it in a CV.
+
 This is more user-friendly because the user can review or modify the details instead of having to enter them again.
 
 The main coding concept you should build upon is clean code and program structure. Focus on **functions and modular programming** so that each function performs one specific task, along with data structures such as lists, strings and dictionaries to store and manage data efficiently. You should also improve your understanding of control flow and **code optimisation**, especially **using return** and reducing unnecessary nesting.

@@ -1,4 +1,6 @@
 this is an application where u can store ur passwords along with the email used and the specific website name in a safe and secure manner on your computer.
+
+
 I used CHATGPT to make my code more efficient and productive and to highlight the differences between my code and gpt-generated code.This allowed me to analyse my own coding approach, identify areas for improvement and broaden the scope of my program by considering factors I had previously overlooked. Through this process, I gained a better understanding of code structure, validation, efficiency and user experience.
 
 

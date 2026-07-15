@@ -1,26 +1,35 @@
 this is an application where u can store ur passwords along with the email used and the specific website name in a safe and secure manner on your computer.
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/a36256ab-b4fb-400b-8f18-9eb7b2a5821f" />
 I used CHATGPT to make my code more efficient and productive and to highlight the differences between my code and gpt-generated code.This allowed me to analyse my own coding approach, identify areas for improvement and broaden the scope of my program by considering factors I had previously overlooked. Through this process, I gained a better understanding of code structure, validation, efficiency and user experience.
+
+
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/a36256ab-b4fb-400b-8f18-9eb7b2a5821f" />
+
 
 **Character storage:**
 Your code stores letters, numbers and symbols in lists.
 My code stores them in strings.
+
 **Password generation:**
 Your code uses random.choice() inside list comprehensions to separately generate letters, symbols and numbers.
 My code uses random.choices() to directly generate the required number of characters.
+
 **Password entry handling:**
 Your code directly inserts the newly generated password into the password entry field.
 My code first clears the password entry field and then inserts the newly generated password.
 This ensures that the newly generated password does not get added to an already existing password.
+
 **Password generation issue:**
 In your code, if the Generate Password button is clicked more than once, the newly generated password can be inserted alongside the previous password.
 My code avoids this by deleting the existing password before inserting the new one, ensuring that only one generated password is present at a time.
+
 **Validation method:**
 Your code checks whether the length of the website and password is not zero using len(text) != 0.
 My code directly checks whether the website or password fields are empty.
+
 **Handling empty fields:**
 Your code uses an if-else structure to handle empty fields.
 My code uses return after displaying the warning, which immediately stops the function and avoids unnecessary nesting.
+
 **Cancel button behaviour:**
 In your code, clicking Cancel after entering the details causes the website and password fields to be cleared.
 In my code, clicking Cancel does not delete the entered information.

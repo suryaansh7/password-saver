@@ -60,6 +60,10 @@ In my code, clicking Cancel does not delete the entered information.
 
 This is more user-friendly because the user can review or modify the details instead of having to enter them again.
 
+
+**CONCEPTS AND IDEAS TO BUILD UPON:**
+
+
 The main coding concept you should build upon is clean code and program structure. Focus on **functions and modular programming** so that each function performs one specific task, along with data structures such as lists, strings and dictionaries to store and manage data efficiently. You should also improve your understanding of control flow and **code optimisation**, especially **using return** and reducing unnecessary nesting.
 
 Your next major step should be **Object-Oriented Programming (OOP)**. Since you are already working with Python and **Tkinter**, learning classes and objects will help you structure larger programs more professionally. You should also explore exception handling using try-except and **JSON data management** for organised storage.
